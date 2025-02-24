@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 export const HeroCard = ({
   id,
   superhero,
-  publisher,
   alter_ego,
   first_appearance,
   characters,
 }) => {
 
-    const heroImgUrl = `/public/heroes/${ id }.jpg`
+    const heroImgUrl = `/heroes/${ id }.jpg`
 
 
   return (
